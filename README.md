@@ -50,6 +50,25 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
+## How can I update the code in my machine?
+
+To update the code in your machine, follow these steps:
+
+1. Pull the latest changes from the remote repository:
+```sh
+git pull origin main
+```
+
+2. If there are any new dependencies, install them:
+```sh
+npm install
+```
+
+3. Restart the development server to apply the changes:
+```sh
+npm run dev
+```
+
 ## What technologies are used for this project?
 
 This project is built with .

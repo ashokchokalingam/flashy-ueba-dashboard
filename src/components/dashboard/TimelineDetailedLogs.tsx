@@ -56,7 +56,7 @@ const TimelineDetailedLogs = ({
         </div>
       </div>
 
-      <ScrollArea className="h-[600px]">
+      <ScrollArea className="h-[600px] overflow-y-auto">
         <div className="p-4">
           <Table>
             <TableHeader className="bg-purple-950/40 sticky top-0 z-10">
